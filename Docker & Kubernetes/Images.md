@@ -179,3 +179,5 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 그리고 tag를 통해 이름 그룹내에서 이미지의 특정 버젼을 지칭 할 수 있다. 
 
 
+
+
