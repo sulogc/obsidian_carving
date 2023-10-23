@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4e662ca09d59e0c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "4b97fdbc3f360408",
             "type": "leaf",
             "state": {
@@ -35,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Container.md"
+              }
             }
           }
         ]
@@ -159,7 +154,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d38ffe8088c8e022",
+  "active": "4b97fdbc3f360408",
   "lastOpenFiles": [
     "Images.md",
     "Container.md",
