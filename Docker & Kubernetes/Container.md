@@ -49,6 +49,6 @@ VM에 비해서..
 
 `docker start name`으로 컨테이너를 재시작 할 수 있다. 
 
-그리고 `attched` 모드와 `detached` 모드를 구분할 수 있다. 
+그리고 `attached` 모드와 `detached` 모드를 구분할 수 있다. 
 
-`attched` 모드는 컨테이너의 출력 결과를 수신한다. 
+`attached` 모드는 컨테이너의 출력 결과를 수신한다. 
