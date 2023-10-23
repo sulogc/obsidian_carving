@@ -74,9 +74,9 @@ VM에 비해서..
 
 ### 실행중인 컨테이너와 소통
 
-`docker cp` 로 
-
+`docker cp` 로 해당 컨테이너 내/외부로 파일을 송/수신 할 수 있다.
 ```
 $ docker cp dummy/. recursing_mendel:/test
 Successfully copied 2.56kB to recursing_mendel:/test
 ```
+
