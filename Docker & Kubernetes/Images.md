@@ -178,6 +178,8 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 `node` 와 같이 이미지에 이름을 특정할 수 있다.
 그리고 tag를 통해 이름 그룹내에서 이미지의 특정 버젼을 지칭 할 수 있다. 
 
+`docker build -t name:tags .` 를 통해서 name과 tag를 지정할 수 있다. 
+
 
 
 
