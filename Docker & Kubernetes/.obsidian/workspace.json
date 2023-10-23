@@ -43,12 +43,8 @@
             "id": "a9affc714bd57e61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Images.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -118,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Images.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -181,9 +173,9 @@
   },
   "active": "a9affc714bd57e61",
   "lastOpenFiles": [
+    "Images.md",
     "Docker Hub.md",
     "Container.md",
-    "Images.md",
     "Docker.md",
     "Layer Architecture.md",
     "src/Layer.png",
