@@ -169,5 +169,5 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 
 `docker image prune` 을 통해서 사용되지 않는 이미지를 모두 지울 수 있다. 
 
-`docker image inspect ID` 를 하면 이미지에 대한 정보를 볼 수 있다 .
+`docker image inspect ID` 를 하면 이미지에 대한 정보를 볼 수 있다.
 
