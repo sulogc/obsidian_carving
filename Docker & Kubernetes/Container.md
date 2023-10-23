@@ -54,6 +54,7 @@ VM에 비해서..
 `attached` 모드는 컨테이너의 출력 결과를 수신한다. 
 
 `-d` 태그로 `run` 하면 `detached` 로 실행 가능하다. 
+`-a` 태그로 `start` 하면 `attached` 로 실행 가능하다.
 
 그리고 `docker attach ID` 를 통해 다시 수신할 수도 있다. 
 
