@@ -82,4 +82,5 @@ Successfully copied 2.56kB to recursing_mendel:/test
 자주 사용하진 않지만 config를 보고싶거나, logs를 읽고싶은 경우 사용한다. 
 
 
-`docker run -p 3000:80 -d --rm --name suhyeng ID` 로
+`docker run -p 3000:80 -d --rm --name suhyeng ID` 로 이름을 지정할 수 있다. 
+
