@@ -150,3 +150,17 @@ CMD ["node", "server.js"]
 
 ## 이미지 분석 및 관리
 
+`docker images` 를 통해 image 리스트를 볼 수 있다 .
+
+```
+$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+<none>       <none>    570ff0d02af0   29 minutes ago   1.02GB
+<none>       <none>    e4ea10d8dc9c   30 minutes ago   1.02GB
+<none>       <none>    f1bbbd303ca2   2 hours ago      1.11GB
+<none>       <none>    26780a9f1f65   2 hours ago      1.11GB
+<none>       <none>    b05633d8e512   2 hours ago      1.11GB
+<none>       <none>    d62f7d0b3cd2   3 hours ago      1.11GB
+```
+
+노드 뿐만아니라 리눅스 
