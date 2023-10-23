@@ -52,7 +52,12 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 ```
 
 
+### 데이터
+
+도커는 다음 3가지로 데이터를 구분할 수 있다.
+![[Data.png]]
+
 
 [[Docker Hub]]
 [[Docker Compose]]
-
+[[Volume]]

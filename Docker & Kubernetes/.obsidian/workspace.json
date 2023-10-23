@@ -43,8 +43,24 @@
             "id": "a9affc714bd57e61",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37bcbea8d6366644",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Volume.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -114,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker.md"
+              }
             }
           }
         ]
@@ -171,12 +191,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a9affc714bd57e61",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "src/Data.png",
+    "Volume.md",
+    "Docker.md",
     "Images.md",
     "Docker Hub.md",
     "Container.md",
-    "Docker.md",
     "Layer Architecture.md",
     "src/Layer.png",
     "Docker Compose.md",
