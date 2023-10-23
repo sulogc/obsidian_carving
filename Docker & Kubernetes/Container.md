@@ -79,4 +79,7 @@ VM에 비해서..
 $ docker cp dummy/. recursing_mendel:/test
 Successfully copied 2.56kB to recursing_mendel:/test
 ```
+자주 사용하진 않지만 config를 보고싶거나, logs를 읽고싶은 경우 사용한다. 
+
+
 
