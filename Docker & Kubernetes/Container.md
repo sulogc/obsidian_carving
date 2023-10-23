@@ -58,4 +58,6 @@ VM에 비해서..
 그리고 `docker attach ID` 를 통해 다시 수신할 수도 있다. 
 
 `docker logs ID` 를 하면 과거 로그를 볼 수 있다.
-`docker l`
+`docker logs -f ID`를 하면 과거 로그를 보고, 수신 모드로 전환 가능하다.
+
+
