@@ -6,7 +6,7 @@ Dissolver의 개념..
 pre-built 된 이미지를 가져오거나 생성해서 사용하면 된다. 
 [[Docker Hub]]에 많음. 
 
-### 이미지 실행 해보기
+## 이미지 실행 해보기
 
 1. 허브에서 다운로드. 
 `docker run node` 하면 다운된다. 
@@ -145,3 +145,7 @@ CMD ["node", "server.js"]
 
 
 [[Layer Architecture]]
+
+
+
+## 이미지 분석, 
