@@ -175,3 +175,5 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 
 ### 이미지에 이름 과 태그를 지정하기
 
+`docker run -p 3000:80 -d --rm --name suhyeng ID`
+
