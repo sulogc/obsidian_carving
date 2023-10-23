@@ -74,6 +74,9 @@ VM에 비해서..
 
 ### 실행중인 컨테이너와 소통
 
-`docker cp` 복사. 
+`docker cp` 로 
 
-
+```
+$ docker cp dummy/. recursing_mendel:/test
+Successfully copied 2.56kB to recursing_mendel:/test
+```
