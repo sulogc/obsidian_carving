@@ -163,4 +163,6 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 <none>       <none>    d62f7d0b3cd2   3 hours ago      1.11GB
 ```
 
-노드 뿐만아니라 리눅스 
+노드 뿐만아니라 리눅스 운영체제까지 포함된 사이즈이다.
+
+컨테이너는 `docker rm`  이미지는 `docker rmi` 로 지울 수 있다. 
