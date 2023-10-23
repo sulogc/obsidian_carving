@@ -183,3 +183,12 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 
 
 
+### 이미지 공유
+
+1. Dockerfile 공유
+docker build 를 해야됨. 
+코드 및 종속성이 필요함.
+
+2. 빌드된 이미지 공유
+빌드 했기 때문에 이미지만 있으면 컨테이너를 띄울 수 있다. 
+
