@@ -11,15 +11,36 @@
             "id": "c4e662ca09d59e0c",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "901ee03248bbb32e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Images.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d38ffe8088c8e022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Container.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Container.md"
               }
             }
           }
@@ -146,51 +167,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "f1cceabf0aeda3fa",
-    "type": "floating",
-    "children": [
-      {
-        "id": "4588002223ba6480",
-        "type": "window",
-        "children": [
-          {
-            "id": "72721896cd6a47b5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "952d4f26051c50b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Images.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2500,
-        "y": 224,
-        "width": 1420,
-        "height": 1019,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c4e662ca09d59e0c",
+  "active": "d38ffe8088c8e022",
   "lastOpenFiles": [
     "Images.md",
+    "Layer Architecture.md",
+    "Container.md",
+    "src/Layer.png",
     "Docker.md",
     "Docker Hub.md",
     "Docker Compose.md",
     "Virtual Machines.md",
-    "Container.md",
     "node.md",
     "src/Docker.png",
     "src/virtual machine.png",
