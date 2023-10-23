@@ -147,7 +147,6 @@ CMD ["node", "server.js"]
 [[Layer Architecture]]
 
 
-
 ## 이미지 분석 및 관리
 
 `docker images` 를 통해 image 리스트를 볼 수 있다 .
