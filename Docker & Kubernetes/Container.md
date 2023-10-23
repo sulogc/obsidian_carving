@@ -49,4 +49,4 @@ VM에 비해서..
 
 `docker start name`으로 컨테이너를 재시작 할 수 있다. 
 
-그리고 
+그리고 `attched` 모드와 `detached` 모드를 구분할 수 있다. 
