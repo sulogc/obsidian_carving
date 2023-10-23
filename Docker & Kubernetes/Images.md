@@ -171,3 +171,7 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 
 `docker image inspect ID` 를 하면 이미지에 대한 정보를 볼 수 있다.
 
+
+
+### 이미지에 이름 과 태그를 지정하기
+
