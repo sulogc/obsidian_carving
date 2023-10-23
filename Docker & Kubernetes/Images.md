@@ -175,4 +175,7 @@ REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 
 ### 이미지에 이름 과 태그를 지정하기
 
-`node` 아
+`node` 와 같이 이미지에 이름을 특정할 수 있다.
+그리고 tag를 통해 이름 그룹내에서 이미지의 특정 버젼을 지칭 할 수 있다. 
+
+
