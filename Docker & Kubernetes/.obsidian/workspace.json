@@ -8,39 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b97fdbc3f360408",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker Hub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d38ffe8088c8e022",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "f4e780e9326f4c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9affc714bd57e61",
+            "id": "c4e662ca09d59e0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,19 +20,19 @@
             }
           },
           {
-            "id": "37bcbea8d6366644",
+            "id": "5823758473f6e1d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Volume.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -131,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -192,16 +159,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a9affc714bd57e61",
+  "active": "5823758473f6e1d7",
   "lastOpenFiles": [
-    "Container.md",
-    "Docker Hub.md",
-    "Volume.md",
     "Docker.md",
-    "src/Data.png",
-    "Images.md",
-    "Layer Architecture.md",
+    "conflict-files-obsidian-git.md",
+    "Container.md",
     "src/Layer.png",
+    "src/Data.png",
+    "Volume.md",
+    "Layer Architecture.md",
+    "Images.md",
+    "Docker Hub.md",
     "Docker Compose.md",
     "Virtual Machines.md",
     "node.md",
