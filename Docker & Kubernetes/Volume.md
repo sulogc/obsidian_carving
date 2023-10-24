@@ -10,7 +10,19 @@
 도커를 실행시키고 api를 호출하면... 안된다. 
 
 ```
-docker f
+docker logs fdv
+
+...
+cross-device link not permitted, rename '/app/temp/2f.txt' -> '/app/feedback/2f.txt'
+...
 
 ```
-cross-device link not permitted, rename '/app/temp/2f.txt' -> '/app/feedback/2f.txt'
+
+도커는 실제로 컨테이너 파일을 파일 시스템 내부의 다른 폴더로 옮기지 않는다....
+기존의 `rename` 을 `copyFile` 과 `unlink` 로 바꾸어 주자.
+즉 옮기기 대신 복사 후 삭제를 하는 것!
+
+
+
+
+

@@ -159,40 +159,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "f1cceabf0aeda3fa",
-    "type": "floating",
-    "children": [
-      {
-        "id": "99a0cc92fbbf7e1c",
-        "type": "window",
-        "children": [
-          {
-            "id": "7f40a0c8b508a9f8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c4e662ca09d59e0c",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2624,
-        "y": 165,
-        "width": 1004,
-        "height": 1299,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "97391de68836e9e4",
+  "active": "9e19658183a8cb65",
   "lastOpenFiles": [
     "src/Volume.png",
     "Docker.md",
