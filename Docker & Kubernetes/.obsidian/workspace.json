@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -191,14 +192,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "a9affc714bd57e61",
   "lastOpenFiles": [
-    "src/Data.png",
+    "Container.md",
+    "Docker Hub.md",
     "Volume.md",
     "Docker.md",
+    "src/Data.png",
     "Images.md",
-    "Docker Hub.md",
-    "Container.md",
     "Layer Architecture.md",
     "src/Layer.png",
     "Docker Compose.md",
