@@ -56,6 +56,14 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 
 도커는 다음 3가지로 데이터를 구분할 수 있다.
 ![[Data.png]]
+1. 코드 및 환경 데이터 : Read-only 이다. 
+2. 컨테이너가 작성하는 일시적인 데이터. : Read-Write 이다.
+3. 영구 데이터. 
+
+
+![[Data 권한.png]]
+
+
 
 
 [[Docker Hub]]
