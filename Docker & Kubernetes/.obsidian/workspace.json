@@ -43,12 +43,8 @@
             "id": "a9affc714bd57e61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -114,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -131,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -194,10 +185,11 @@
   },
   "active": "a9affc714bd57e61",
   "lastOpenFiles": [
+    "dfaewaf.md",
+    "Docker.md",
     "Container.md",
     "Docker Hub.md",
     "Volume.md",
-    "Docker.md",
     "src/Data.png",
     "Images.md",
     "Layer Architecture.md",
