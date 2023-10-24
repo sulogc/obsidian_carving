@@ -58,7 +58,7 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 ![[Data.png]]
 1. 코드 및 환경 데이터 : Read-only 이다. 
 2. 컨테이너가 작성하는 일시적인 데이터. : Read-Write 이다.
-3. 영구 데이터. 
+3. 영구 데이터. : 컨테이너가 삭제 되더라도 생존 해야함.
 
 
 ![[Data 권한.png]]
