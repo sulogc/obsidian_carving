@@ -4,3 +4,13 @@
 
 ![[Volume.png]]
 - 폴더와 폴더를 매핑해두는 개념. 즉 서로 접근이 가능하다...!
+
+`VOLUME [ "/app/feedback" ]` 을 추가하여 볼륨을 설정해주자.
+
+도커를 실행시키고 api를 호출하면... 안된다. 
+
+```
+docker f
+
+```
+cross-device link not permitted, rename '/app/temp/2f.txt' -> '/app/feedback/2f.txt'
