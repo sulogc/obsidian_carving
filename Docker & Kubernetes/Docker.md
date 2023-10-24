@@ -37,6 +37,11 @@ credsStore -> credStore로 바꾸니 잘 돌아감.
  docker: Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:3000 -> 0.0.0.0:0: listen tcp 0.0.0.0:3000: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
  
  net stop winnat으로 해결함. 
+
+다음 명령어로 미리 예약을 할 수도 있다.
+netsh int ipv4 add excludedportrange protocol=tcp startport=3000 numberofports=1 store=persistent
+
+
 ```
 
 
