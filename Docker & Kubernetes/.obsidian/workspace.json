@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4e662ca09d59e0c",
+            "id": "5e7c4a8fc5444102",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "5823758473f6e1d7",
+            "id": "9e19658183a8cb65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Volume.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Volume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Volume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Volume.md"
               }
             }
           }
@@ -151,22 +151,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5823758473f6e1d7",
+  "floating": {
+    "id": "f1cceabf0aeda3fa",
+    "type": "floating",
+    "children": [
+      {
+        "id": "99a0cc92fbbf7e1c",
+        "type": "window",
+        "children": [
+          {
+            "id": "7f40a0c8b508a9f8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c4e662ca09d59e0c",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2624,
+        "y": 165,
+        "width": 1004,
+        "height": 1299,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "9e19658183a8cb65",
   "lastOpenFiles": [
     "Docker.md",
+    "Volume.md",
+    "cluster.md",
+    "Control Plane Components.md",
     "conflict-files-obsidian-git.md",
     "Container.md",
     "src/Layer.png",
     "src/Data.png",
-    "Volume.md",
     "Layer Architecture.md",
     "Images.md",
     "Docker Hub.md",
@@ -177,8 +212,6 @@
     "src/virtual machine.png",
     "kubernetes.md",
     "pod.md",
-    "cluster.md",
-    "Control Plane Components.md",
     "src/kube.png",
     "Kafka.md",
     "kubelet.md",
