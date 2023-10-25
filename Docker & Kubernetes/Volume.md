@@ -49,5 +49,10 @@ docker run -d -p 3000:80 --rm --name feedback-app -v feedback:/app/feedback feed
 
 - [[Bind Mounts]]
 
+### Read Only Volume
 
+사실  바인드 마운트를 했을 때, 컨테이너가 app 폴더에 쓸 수 있게 하는 것이 아니라. 로컬 파일을 변경할 수 없어야한다. 
 
+컨테이너에서 실행 중인 애플리케이션은 본인 스스로를 변경해서는 안된다.
+
+볼륨의 디폴트 권한ㅇ
