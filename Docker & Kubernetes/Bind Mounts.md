@@ -18,5 +18,9 @@
 `docker run -d -p 3000:80 -v feedback:/api/feedback -v "<바인드할 디렉토리의 절대경로>:/app" -v /app/node_modules feedback`
 
 
+다수에 컨테이너에서 접근 가능하다. 
+지우려면 실제 호스트 머신에 있는 폴더를 지우면 됨.
+당연하겠지만 재사용이 가능함. 
+
 
 

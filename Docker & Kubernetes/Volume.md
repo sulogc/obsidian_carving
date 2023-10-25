@@ -28,6 +28,8 @@ cross-device link not permitted, rename '/app/temp/2f.txt' -> '/app/feedback/2f.
 - 익명 볼륨
 
 컨테이너 실행시 명명하지 않으면 컨테이너가 삭제될 때 볼륨도 삭제된다. 
+컨테이너에 이미 존재하는 특정 데이터를 잠그는데 유용하다. 
+
 
 - 명명 볼륨
 
@@ -41,6 +43,8 @@ docker run -d -p 3000:80 --rm --name feedback-app -v feedback:/app/feedback feed
 ```
 
 볼륨에는 익명 볼륨이 있다. 
+
+다양한 컨테이너가 공유할 수 있다. 
 
 
 - [[Bind Mounts]]
