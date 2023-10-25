@@ -43,9 +43,7 @@ docker run -d -p 3000:80 --rm --name feedback-app -v feedback:/app/feedback feed
 볼륨에는 익명 볼륨이 있다. 
 
 
-- Bind Mounts
-
-호스트 머신에 매핑을 시키는 것. 
+- [[Bind Mounts]]
 
 
 
