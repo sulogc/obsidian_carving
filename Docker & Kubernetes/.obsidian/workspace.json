@@ -181,6 +181,7 @@
   },
   "active": "c45889e81dab7baf",
   "lastOpenFiles": [
+    "src/Volume 2.png",
     "Volume.md",
     "Bind Mounts.md",
     "Docker.md",
@@ -213,7 +214,6 @@
     "Contoller Manager.md",
     "etcd.md",
     "Node Components.md",
-    "kube proxy.md",
     "src/Container.png",
     "src"
   ]
