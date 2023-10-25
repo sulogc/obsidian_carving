@@ -8,7 +8,7 @@
 
 ![[network1.png]]
 
-### 영화 api 예제
+## 영화 api 예제
 
 4개의 엔드 포인트고, post 요청에 mongo DB가 엮여있다. 돌려보면, 
 
@@ -34,4 +34,19 @@ MongoNetworkError: failed to connect to server [localhost:27017] on first connec
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 ```
+
+몽고 db 부분을 지우고 하면 잘 돌아간다. 
+
+### 로컬의 몽고 DB와  연결
+
+호스트의 `localhost`은 컨테이너에서  `host.docker.internal` 로 접근 가능하다. 
+
+### 컨테이너 몽고 DB와 연결
+
+몽고DB의 경우 도커 허브에 이미 있기 때문에 
+`docker run mongo` 를 하면 된다. 
+
+
+
+
 
