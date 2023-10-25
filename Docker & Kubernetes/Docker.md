@@ -37,6 +37,11 @@ credsStore -> credStore로 바꾸니 잘 돌아감.
  docker: Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:3000 -> 0.0.0.0:0: listen tcp 0.0.0.0:3000: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
  
  net stop winnat으로 해결함. 
+
+다음 명령어로 미리 예약을 할 수도 있다.
+netsh int ipv4 add excludedportrange protocol=tcp startport=3000 numberofports=1 store=persistent
+
+
 ```
 
 
@@ -56,6 +61,14 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 
 도커는 다음 3가지로 데이터를 구분할 수 있다.
 ![[Data.png]]
+1. 코드 및 환경 데이터 : Read-only 이다. 
+2. 컨테이너가 작성하는 일시적인 데이터. : Read-Write 이다.
+3. 영구 데이터. : 컨테이너가 삭제 되더라도 생존 해야함.
+
+
+![[Data 권한.png]]
+
+
 
 
 [[Docker Hub]]
