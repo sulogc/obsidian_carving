@@ -69,8 +69,13 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 ![[Data 권한.png]]
 
 
+### .dockerignore
+
+copy 명령으로 복사해서는 안 되는 폴더 및 파일을 지정할 수 있다. 
 
 
 [[Docker Hub]]
 [[Docker Compose]]
 [[Volume]]
+
+[[Arguments & Environment]]
