@@ -33,18 +33,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1dad8f5e8dbbc48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Communication & Networking.md",
                 "mode": "source",
                 "source": false
@@ -74,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,9 +190,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f1dad8f5e8dbbc48",
+  "active": "37bcbea8d6366644",
   "lastOpenFiles": [
     "Container.md",
+    "src/network1.png",
     "Communication & Networking.md",
     "Docker Compose.md",
     "Arguments & Environment.md",
@@ -238,8 +227,6 @@
     "Kafka.md",
     "kubelet.md",
     "kube-contoller-manager.md",
-    "Contoller Manager.md",
-    "src/Container.png",
     "src"
   ]
 }
