@@ -8,59 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4b97fdbc3f360408",
+            "id": "d38ffe8088c8e022",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker Hub.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d38ffe8088c8e022",
+            "id": "d1b19da00bfe92f5",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "f4e780e9326f4c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9affc714bd57e61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Volume.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "139cf819cee601fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
             }
           },
           {
@@ -76,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Volume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Volume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Volume.md"
               }
             }
           }
@@ -203,41 +167,41 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "139cf819cee601fe",
+  "active": "37bcbea8d6366644",
   "lastOpenFiles": [
+    "Bind Mounts.md",
+    "Docker.md",
     "Volume.md",
+    "Container.md",
+    "Docker Hub.md",
+    "Virtual Machines.md",
+    "pod.md",
+    "Operator Pattern.md",
+    "Layer Architecture.md",
+    "kube-scheduler.md",
+    "kube-apiserver.md",
+    "Images.md",
     "conflict-files-obsidian-git.md",
     "src/Volume.png",
     "src/Data 권한.png",
-    "Docker.md",
     "dfaewaf.md",
-    "Container.md",
-    "Docker Hub.md",
     "src/Data.png",
-    "Images.md",
-    "Layer Architecture.md",
     "src/Layer.png",
     "Docker Compose.md",
-    "Virtual Machines.md",
     "node.md",
     "src/Docker.png",
     "src/virtual machine.png",
     "kubernetes.md",
-    "pod.md",
     "cluster.md",
     "Control Plane Components.md",
     "src/kube.png",
     "Kafka.md",
     "kubelet.md",
-    "kube-scheduler.md",
     "kube-contoller-manager.md",
-    "kube-apiserver.md",
     "Contoller Manager.md",
     "etcd.md",
     "Node Components.md",
     "kube proxy.md",
-    "Strimzi.md",
-    "Operator Pattern.md",
     "src/Container.png",
     "src"
   ]

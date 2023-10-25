@@ -23,6 +23,29 @@ cross-device link not permitted, rename '/app/temp/2f.txt' -> '/app/feedback/2f.
 즉 옮기기 대신 복사 후 삭제를 하는 것!
 
 
+## Anonymous/Named Volume & Bind Mounts
+
+- 익명 볼륨
+
+컨테이너 실행시 명명하지 않으면 컨테이너가 삭제될 때 볼륨도 삭제된다. 
+
+- 명명 볼륨
+
+컨테이너 삭제시에도 사라지지않고 영구 보관이 가능하다. 하지만 도커가 관리하기 때문에 로컬에서 접근 할 수가 없다. 
+
+다른 컴퓨터에도 해당 명명한 이름으로 바인딩이 가능하다.
+다음은 `feedback`이라고 볼륨명을 정해서 컨테이너를 런하는 코드. 
+
+```
+docker run -d -p 3000:80 --rm --name feedback-app -v feedback:/app/feedback feedback-node:volumes
+```
+
+볼륨에는 익명 볼륨이 있다. 
+
+
+- Bind Mounts
+
+호스트 머신에 매핑을 시키는 것. 
 
 
 
