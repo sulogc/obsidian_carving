@@ -113,4 +113,12 @@ $ docker container inspect mongodb
 다음 구성한 네트워크에 도커런을 해주자
 `docker run -d --name mongodb --network favorites-net mongo`
 
+```
+그리고 몽고DB는 다른 도커 컨테이너속 APP만 접근 하기 때문에 포트 연결을 안해줘도 된다.   
+```
+
+네트워크가 같은 경우 컨테이너 이름으로 연결할 수 있다.
+`'mongodb://mongodb:27017/swfavorites',`
+
+
 
