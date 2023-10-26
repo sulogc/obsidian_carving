@@ -46,6 +46,55 @@ MongoNetworkError: failed to connect to server [localhost:27017] on first connec
 몽고DB의 경우 도커 허브에 이미 있기 때문에 
 `docker run mongo` 를 하면 된다. 
 
+그리고 나서 해당 컨테이너를 보기 위해 inspect를 하면, NetworkSettings에 IPAdress를 볼 수 있다.
+```
+$ docker container inspect mongodb
+[
+    ...
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "6097412bde10c4a91e27b105864959415b246f1c3a72adef5cdc506cce72c57b",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "27017/tcp": null
+            },
+            "SandboxKey": "/var/run/docker/netns/6097412bde10",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "ea267ec2353225d4db27c50d7bc08e8a9b230fb80e054298bde6c1c33f4e79f8",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "7c31ab53329fcd6ea0d597abd3e33f7ca4de8d132682f76cd3b2439fd0aaff0b",
+                    "EndpointID": "ea267ec2353225d4db27c50d7bc08e8a9b230fb80e054298bde6c1c33f4e79f8",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
+
+```
+
+해당 값을 node App에서 몽고 커넥트 부분에 넣으면 통신이 된다. 
 
 
 
