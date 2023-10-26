@@ -51,7 +51,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multi Contanier with 3 Layer Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multi Contanier with 3 Layer Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Multi Contanier with 3 Layer Architecture.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -178,11 +175,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d38ffe8088c8e022",
+  "active": "37bcbea8d6366644",
   "lastOpenFiles": [
+    "Multi Contanier with 3 Layer Architecture.md",
     "src/3Layer.png",
     "Docker.md",
-    "Multi Contanier with 3 Layer Architecture.md",
     "Communication & Networking.md",
     "Bind Mounts.md",
     "src/Arg&Env.png",
@@ -213,7 +210,6 @@
     "kubernetes.md",
     "cluster.md",
     "Control Plane Components.md",
-    "src/kube.png",
     "Kafka.md",
     "kubelet.md",
     "src"
