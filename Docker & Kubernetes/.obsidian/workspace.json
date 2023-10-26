@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Multi Contanier with 3 Layer Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,8 +51,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -119,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Multi Contanier with 3 Layer Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Multi Contanier with 3 Layer Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Multi Contanier with 3 Layer Architecture.md"
+              }
             }
           }
         ]
@@ -176,10 +178,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "37bcbea8d6366644",
+  "active": "d38ffe8088c8e022",
   "lastOpenFiles": [
-    "Communication & Networking.md",
+    "src/3Layer.png",
     "Docker.md",
+    "Multi Contanier with 3 Layer Architecture.md",
+    "Communication & Networking.md",
     "Bind Mounts.md",
     "src/Arg&Env.png",
     "Volume.md",
@@ -212,7 +216,6 @@
     "src/kube.png",
     "Kafka.md",
     "kubelet.md",
-    "kube-contoller-manager.md",
     "src"
   ]
 }
