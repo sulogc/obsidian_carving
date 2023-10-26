@@ -20,33 +20,11 @@
             }
           },
           {
-            "id": "d1b19da00bfe92f5",
+            "id": "37bcbea8d6366644",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
-            }
-          },
-          {
-            "id": "37bcbea8d6366644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Communication & Networking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adcfabf7d882cc34",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "src/Arg&Env.png"
-              }
             }
           },
           {
@@ -60,9 +38,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3710cc1628710728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Communication & Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -190,18 +180,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "37bcbea8d6366644",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "Docker.md",
+    "Bind Mounts.md",
+    "src/Arg&Env.png",
+    "Volume.md",
+    "Communication & Networking.md",
     "Container.md",
     "src/network1.png",
-    "Communication & Networking.md",
     "Docker Compose.md",
     "Arguments & Environment.md",
-    "Docker.md",
-    "src/Arg&Env.png",
-    "Bind Mounts.md",
     "Arg&Env.png.md",
-    "Volume.md",
     "src/Volume 2.png",
     "Docker Hub.md",
     "Virtual Machines.md",

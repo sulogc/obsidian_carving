@@ -46,6 +46,7 @@ MongoNetworkError: failed to connect to server [localhost:27017] on first connec
 몽고DB의 경우 도커 허브에 이미 있기 때문에 
 `docker run mongo` 를 하면 된다. 
 
+1. IPAdress
 그리고 나서 해당 컨테이너를 보기 위해 inspect를 하면, NetworkSettings에 IPAdress를 볼 수 있다.
 ```
 $ docker container inspect mongodb
@@ -96,6 +97,20 @@ $ docker container inspect mongodb
 
 해당 값을 node App에서 몽고 커넥트 부분에 넣으면 통신이 된다. 
 
+하지만, 주소가 변경 될 때마다 하드 코딩 해 놔야하는 단점이 있다. 
 
+2. Container Network
+
+컨테이너간 통신을 위해 같은 네트워크로 구성할 수 있다.
+`--network`
+
+단, 먼저 네트워크를 만들어 줘야한다.
+`docker network create favorites-net`
+
+다음과 같이 확인 가능.
+`docker network ls` 
+
+다음 구성한 네트워크에 도커런을 해주자
+`docker run -d --name mongodb --network favorites-net mongo`
 
 
