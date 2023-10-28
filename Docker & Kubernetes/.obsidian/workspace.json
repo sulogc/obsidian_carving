@@ -167,11 +167,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "14241f4eacba6773",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "src/Dockercompose2.png",
+    "Docker Compose.md",
     "Docker.md",
     "src/Dockercompose.png",
-    "Docker Compose.md",
     "etcd.md",
     "Volume.md",
     "src/network1.png",
@@ -195,7 +196,6 @@
     "Docker Hub.md",
     "Virtual Machines.md",
     "node.md",
-    "src/Docker.png",
     "kubernetes.md",
     "pod.md",
     "Kafka.md",
