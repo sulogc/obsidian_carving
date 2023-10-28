@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "14241f4eacba6773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker Compose.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5e7c4a8fc5444102",
             "type": "leaf",
             "state": {
@@ -23,16 +35,13 @@
             "id": "9e19658183a8cb65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Docker Compose.md",
-                "mode": "source",
-                "source": false
+                "file": "src/Dockercompose.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,6 +171,9 @@
   },
   "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "Docker.md",
+    "src/Dockercompose.png",
+    "Docker Compose.md",
     "etcd.md",
     "Volume.md",
     "src/network1.png",
@@ -173,8 +185,6 @@
     "Bind Mounts.md",
     "Arguments & Environment.md",
     "src/Volume.png",
-    "Docker.md",
-    "Docker Compose.md",
     "src/Data 권한.png",
     "cluster.md",
     "Control Plane Components.md",
@@ -188,7 +198,6 @@
     "Virtual Machines.md",
     "node.md",
     "src/Docker.png",
-    "src/virtual machine.png",
     "kubernetes.md",
     "pod.md",
     "Kafka.md",
