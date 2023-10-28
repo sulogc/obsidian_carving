@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control Plane Components.md",
+                "file": "Docker Compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Plane Components.md",
+                "file": "Docker Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control Plane Components.md",
+                "file": "Docker Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control Plane Components.md"
+                "file": "Docker Compose.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "9e19658183a8cb65",
   "lastOpenFiles": [
+    "Virtual Machines.md",
+    "Container.md",
+    "Control Plane Components.md",
     "Docker.md",
     "Kafka.md",
     "etcd.md",
@@ -180,14 +183,11 @@
     "Docker Compose.md",
     "src/Data 권한.png",
     "cluster.md",
-    "Control Plane Components.md",
     "conflict-files-obsidian-git.md",
-    "Container.md",
     "src/Layer.png",
     "src/Data.png",
     "Layer Architecture.md",
     "Docker Hub.md",
-    "Virtual Machines.md",
     "node.md",
     "kubernetes.md",
     "pod.md",
