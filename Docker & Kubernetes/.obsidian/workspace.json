@@ -32,13 +32,11 @@
             }
           },
           {
-            "id": "9e19658183a8cb65",
+            "id": "056b31c876b6c47d",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "src/Dockercompose.png"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -169,7 +167,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "14241f4eacba6773",
   "lastOpenFiles": [
     "Docker.md",
     "src/Dockercompose.png",
