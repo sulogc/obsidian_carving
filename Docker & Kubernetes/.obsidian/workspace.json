@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "etcd.md",
+                "file": "Docker Compose.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "etcd.md",
+                "file": "Docker Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "etcd.md",
+                "file": "Docker Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "etcd.md"
+                "file": "Docker Compose.md"
               }
             }
           }
@@ -159,8 +160,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9e19658183a8cb65",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "etcd.md",
     "Volume.md",
     "src/network1.png",
     "src/Volume 2.png",
@@ -195,7 +197,6 @@
     "kube-contoller-manager.md",
     "kube-apiserver.md",
     "Contoller Manager.md",
-    "etcd.md",
     "src"
   ]
 }
