@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b33339fba6b85cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubectl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes.md",
+                "file": "kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes.md",
+                "file": "kubectl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes.md"
+                "file": "kubectl.md"
               }
             }
           }
@@ -146,8 +159,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a00b9b1cf9dd9024",
+  "active": "b33339fba6b85cc9",
   "lastOpenFiles": [
+    "kubernetes.md",
+    "kubectl.md",
+    "Control Plane Components.md",
+    "cluster.md",
+    "Node Components.md",
     "Communication & Networking.md",
     "Bind Mounts.md",
     "etcd.md",
@@ -162,7 +180,6 @@
     "src/Dockercompose2.png",
     "src/Dockercompose.png",
     "Utility Container.md",
-    "kubernetes.md",
     "Multi Contanier with 3 Layer Architecture.md",
     "Docker.md",
     "Volume.md",
@@ -180,10 +197,6 @@
     "Images.md",
     "conflict-files-obsidian-git.md",
     "dfaewaf.md",
-    "node.md",
-    "cluster.md",
-    "Control Plane Components.md",
-    "Kafka.md",
     "src"
   ]
 }
