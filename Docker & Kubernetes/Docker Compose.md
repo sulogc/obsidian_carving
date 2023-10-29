@@ -20,10 +20,67 @@
 
 yaml은 들여쓰기를 통해 구성 옵션 간의 종속성을 표현하는 특정한 텍스트 포맷이다. 
 
+- 이미지가 없는 경우 docker-compose.yml 의 상대 경로로 하위 Dockerfile의 path를 알려주면 된다.
 
 - docker-compose.yml
 ```
+# 들여쓰기로 직계 후손
+# 도커 컴포즈에서 -d 와 --rm 은 디폴트다
+# 도커 컴포즈는 포함된 service들을 모두 동일한 네트워크로 간주하고 관리하게 해준다.
+# 같은 컴포즈에서 동일한 볼륨을 쓰면 공유하게된다. 명명 볼륨만 적음. 익명과 바인드는 적을 필요가 없다.
 
+# 도커 컴포즈의 버젼
+# 사용가능한 구문 구분
+version: "3.8"
+
+# 서비스 키
+services:
+    mongodb:
+        image: 'mongo'
+        volumes:
+            - data:/data/db
+        env_file:
+            - ./env/mongo.env
+      # environment:
+      #   MONGO_INITDB_ROOT_USERNAME: max
+      #   MONGO_INITDB_ROOT_PASSWORD: secre
+        # - MONGO_INITDB_ROOT_USERNAME=max 으로 표현해도 된다.
+        # networks:
+        #     - goals-net # 특정 네트워크에 추가 가능.
+
+    backend:
+        build: "./backend"
+        # build:
+        #     context: ./backend # context는 Dockerfile이 이미지로 복사할 경로를 포함해야 한다.
+        #     dockerfile: Dockerfile # Dockerfile이면 위에 처럼 경로만 알려줘도 되지만, 이름이 다를경우 지정가능하다.
+        #     args:
+        #         some-arg: 1
+        ports:
+            - '80:80'
+        volumes:
+            - logs:/app/logs # 명명 볼륨
+            - ./backend:/app # 바운드 마운트를 상대경로를 통해 지정할 수가 있다.
+            - /app/node_modules
+        env_file:
+            - ./env/backend.env
+        depends_on: # 다른 컨테이너에 영향을 받는 경우. 즉 컨테이너 실행에 순서가 있는 경우.
+            - mongodb
+            
+    frontend:
+        build: ./frontend
+        ports:
+            - '3000:3000'        
+        volumes:
+            - ./frontend/src:/app/src
+        stdin_open: true # 이 두 가지가 -it 옵션이다.
+        tty: true
+        depends_on:
+            - backend
+
+# 볼륨에 대한 키를 추가
+volumes:
+  data:
+  logs:
 ```
 
 이후 `docker compose up`을 하면, 
@@ -39,3 +96,6 @@ yaml은 들여쓰기를 통해 구성 옵션 간의 종속성을 표현하는 �
 
 `docker compose down`으로 멈출 수 있다. 다만 볼륨은 삭제되지 않는데, 
 `down`에 `-v` 옵션도 넣어주면 된다.
+
+컨테이너 이름은 더 길게 할당되는데, 서비스 이름을 통해 통신이 가능하다.
+
