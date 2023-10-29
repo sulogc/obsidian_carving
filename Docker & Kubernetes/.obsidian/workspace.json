@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker Compose.md",
+                "file": "Container.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41931847bed5113c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Utility Container.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Compose.md",
+                "file": "Utility Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Compose.md",
+                "file": "Utility Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Compose.md"
+                "file": "Utility Container.md"
               }
             }
           }
@@ -159,10 +171,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9e19658183a8cb65",
+  "active": "41931847bed5113c",
   "lastOpenFiles": [
-    "Virtual Machines.md",
+    "Utility Container.md",
     "Container.md",
+    "Docker Compose.md",
+    "src/utility container.png",
+    "Virtual Machines.md",
     "Control Plane Components.md",
     "Docker.md",
     "Kafka.md",
@@ -180,12 +195,10 @@
     "Bind Mounts.md",
     "Arguments & Environment.md",
     "src/Volume.png",
-    "Docker Compose.md",
     "src/Data 권한.png",
     "cluster.md",
     "conflict-files-obsidian-git.md",
     "src/Layer.png",
-    "src/Data.png",
     "Layer Architecture.md",
     "Docker Hub.md",
     "node.md",
