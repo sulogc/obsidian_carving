@@ -25,3 +25,17 @@ yaml은 들여쓰기를 통해 구성 옵션 간의 종속성을 표현하는 �
 ```
 
 ```
+
+이후 `docker compose up`을 하면, 
+다음과 같이 기본 네트워크 및 볼륨을 생성해 준다.
+```
+[+] Running 3/3
+ ✔ Network compose-01-starting-setup_default      Created 0.8s 
+ ✔ Volume "compose-01-starting-setup_data"        Created 0.0s 
+ ✔ Container compose-01-starting-setup-mongodb-1  Created        
+```
+
+`-d` 옵션으로 detach 실행을 해주자.
+
+`docker compose down`으로 멈출 수 있다. 다만 볼륨은 삭제되지 않는데, 
+`down`에 `-v` 옵션도 넣어주면 된다.
