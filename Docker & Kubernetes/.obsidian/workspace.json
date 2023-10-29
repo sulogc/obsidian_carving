@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c077d13e2992115d",
+        "id": "192831a4f003111e",
         "type": "tabs",
         "children": [
           {
-            "id": "5e7c4a8fc5444102",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "679c91b99796a8bf",
+            "id": "a00b9b1cf9dd9024",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -26,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9e19658183a8cb65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Container.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41931847bed5113c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pod.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,52 +138,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "a00b9b1cf9dd9024",
   "lastOpenFiles": [
-    "src/compo.png",
-    "src/masternode.png",
+    "Communication & Networking.md",
+    "Bind Mounts.md",
+    "etcd.md",
     "src/workernode.png",
+    "src/utility container.png",
+    "src/masternode.png",
     "src/kube4.png",
-    "Docker.md",
-    "pod.md",
-    "kubernetes.md",
-    "Kafka.md",
     "src/kube3.png",
     "src/kube2.png",
     "src/kube1.png",
-    "Utility Container.md",
-    "Container.md",
-    "Docker Compose.md",
-    "src/utility container.png",
-    "Virtual Machines.md",
-    "Control Plane Components.md",
-    "etcd.md",
-    "Images.md",
-    "Multi Contanier with 3 Layer Architecture.md",
+    "src/compo.png",
     "src/Dockercompose2.png",
     "src/Dockercompose.png",
+    "Utility Container.md",
+    "kubernetes.md",
+    "Multi Contanier with 3 Layer Architecture.md",
+    "Docker.md",
     "Volume.md",
-    "src/network1.png",
-    "Communication & Networking.md",
-    "Bind Mounts.md",
+    "Container.md",
+    "Docker Compose.md",
     "Arguments & Environment.md",
-    "cluster.md",
-    "conflict-files-obsidian-git.md",
-    "Layer Architecture.md",
+    "Arg&Env.png.md",
     "Docker Hub.md",
-    "node.md",
-    "kubelet.md",
+    "Virtual Machines.md",
+    "pod.md",
+    "Operator Pattern.md",
+    "Layer Architecture.md",
     "kube-scheduler.md",
-    "kube-contoller-manager.md",
     "kube-apiserver.md",
+    "Images.md",
+    "conflict-files-obsidian-git.md",
+    "dfaewaf.md",
+    "node.md",
+    "cluster.md",
+    "Control Plane Components.md",
+    "Kafka.md",
     "src"
   ]
 }
