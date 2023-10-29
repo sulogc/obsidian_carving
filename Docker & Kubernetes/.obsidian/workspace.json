@@ -11,9 +11,17 @@
             "id": "5e7c4a8fc5444102",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "679c91b99796a8bf",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "kubernetes.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +45,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Utility Container.md",
+                "file": "pod.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Utility Container.md",
+                "file": "kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Utility Container.md",
+                "file": "kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Utility Container.md"
+                "file": "kubernetes.md"
               }
             }
           }
@@ -171,16 +179,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "41931847bed5113c",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "src/compo.png",
+    "src/masternode.png",
+    "src/workernode.png",
+    "src/kube4.png",
+    "Docker.md",
+    "pod.md",
+    "kubernetes.md",
+    "Kafka.md",
+    "src/kube3.png",
+    "src/kube2.png",
+    "src/kube1.png",
     "Utility Container.md",
     "Container.md",
     "Docker Compose.md",
     "src/utility container.png",
     "Virtual Machines.md",
     "Control Plane Components.md",
-    "Docker.md",
-    "Kafka.md",
     "etcd.md",
     "Images.md",
     "Multi Contanier with 3 Layer Architecture.md",
@@ -188,27 +205,18 @@
     "src/Dockercompose.png",
     "Volume.md",
     "src/network1.png",
-    "src/Volume 2.png",
-    "src/Arg&Env.png",
-    "src/3Layer.png",
     "Communication & Networking.md",
     "Bind Mounts.md",
     "Arguments & Environment.md",
-    "src/Volume.png",
-    "src/Data 권한.png",
     "cluster.md",
     "conflict-files-obsidian-git.md",
-    "src/Layer.png",
     "Layer Architecture.md",
     "Docker Hub.md",
     "node.md",
-    "kubernetes.md",
-    "pod.md",
     "kubelet.md",
     "kube-scheduler.md",
     "kube-contoller-manager.md",
     "kube-apiserver.md",
-    "Contoller Manager.md",
     "src"
   ]
 }
