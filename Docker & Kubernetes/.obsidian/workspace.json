@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f2dedce0feafc133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployment object.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b33339fba6b85cc9",
             "type": "leaf",
             "state": {
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubectl.md",
+                "file": "Deployment object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubectl.md",
+                "file": "Deployment object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubectl.md"
+                "file": "Deployment object.md"
               }
             }
           }
@@ -159,8 +171,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b33339fba6b85cc9",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "src/Deploymentob.png",
+    "pod.md",
+    "src/Pod.png",
+    "Deployment object.md",
     "kubernetes.md",
     "kubectl.md",
     "Control Plane Components.md",
@@ -178,7 +194,6 @@
     "src/kube1.png",
     "src/compo.png",
     "src/Dockercompose2.png",
-    "src/Dockercompose.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
     "Docker.md",
@@ -189,14 +204,11 @@
     "Arg&Env.png.md",
     "Docker Hub.md",
     "Virtual Machines.md",
-    "pod.md",
     "Operator Pattern.md",
     "Layer Architecture.md",
     "kube-scheduler.md",
     "kube-apiserver.md",
     "Images.md",
-    "conflict-files-obsidian-git.md",
-    "dfaewaf.md",
     "src"
   ]
 }
