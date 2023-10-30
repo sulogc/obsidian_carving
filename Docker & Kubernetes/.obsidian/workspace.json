@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f39ef0ba06cc100",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Service.md",
+                "file": "Deployment object.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Service.md",
+                "file": "Deployment object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Service.md",
+                "file": "Deployment object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Service.md"
+                "file": "Deployment object.md"
               }
             }
           }
@@ -183,25 +171,26 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8f39ef0ba06cc100",
+  "active": "b33339fba6b85cc9",
   "lastOpenFiles": [
-    "kubernetes.md",
+    "pod.md",
+    "etcd.md",
+    "Deployment object.md",
     "Service.md",
+    "kubernetes.md",
+    "src/Serviceob.png",
     "kubectl.md",
     "Docker Compose.md",
     "Container.md",
     "Docker.md",
     "Docker Hub.md",
-    "Deployment object.md",
     "src/Deploymentob.png",
-    "pod.md",
     "src/Pod.png",
     "Control Plane Components.md",
     "cluster.md",
     "Node Components.md",
     "Communication & Networking.md",
     "Bind Mounts.md",
-    "etcd.md",
     "src/workernode.png",
     "src/utility container.png",
     "src/masternode.png",
@@ -209,7 +198,6 @@
     "src/kube3.png",
     "src/kube2.png",
     "src/kube1.png",
-    "src/compo.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
     "Volume.md",
@@ -220,7 +208,6 @@
     "Layer Architecture.md",
     "kube-scheduler.md",
     "kube-apiserver.md",
-    "Images.md",
     "src"
   ]
 }
