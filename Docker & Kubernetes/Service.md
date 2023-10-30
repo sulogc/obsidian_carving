@@ -1,4 +1,7 @@
 
+서비스는 pod의 논리적 집합이며, 어떻게 접근할지에 대한 정책을 정의해 둔 것이다.
+
+
 pod 의 ip는 자주 바뀜. 클러스터 외부에서 pod에 접근 가능하게 해준다. 
 
 
@@ -52,3 +55,22 @@ minikube service first-app
 셀렉터는 이 리소스에게 제어되거나, 연결되어야 하는 다른 리소스를 식별한다. 
 
 셀렉터를 사용하면, name이 아닌 metadata에 정의된 레이블로만 선택이 가능하다.
+
+
+```
+# 쿠버네티스 구성요소기 때문에 apiVerison이 필요함
+apiVersion: v1 # service 는 deployment와 조금 다르다.
+kind: Service
+metadata:
+  name: backend
+  labels:
+    group: example
+spec:
+  selector:
+    app: second-app # app:second-app 레이블을 가진 모든 pod는 Service에 의해 제어된다.
+  ports:
+    - protocol: 'TCP'
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer # NodePort ClusterIP
+```

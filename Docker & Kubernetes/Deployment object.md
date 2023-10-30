@@ -67,7 +67,48 @@ deployment가 생성 후 pod수를 확장 할 때, pod는 이미 존재하는 de
 `selector` `matchLabels` 를 통해 deployment에 의해 관리될 pod를 명시할 수 있다.
 
 
+```
+apiVersion: apps/v1
+# deployment에 대한 object, pod에 대한 object 들을 설정해줌.
+# 생성하려는 항목을 쿠버네티스에게 줘야함.
 
+kind: Deployment
+metadata:
+  name: second-app-deployment
+  labels:
+    group: example
+
+spec:
+  replicas: 1 # 0 으로하면 실행이 안됨.
+  selector:
+    matchLabels:
+      app: second-app
+      tier: backend
+    # matchExpressions:
+    #   # 앱 레이블이 이범위의 값을 갖는 모든 포드를 선택한다.
+    #   - {key: app, operator: In , values: [second-app, first-app]}
+
+  template:   # deployment template는 pod에 대한 설정이므로 kind가 필요 없다.
+    metadata:
+      labels:
+        app: second-app
+        tier: backend
+    spec: # 상위 spec은 deployment에 대한 것이고, 이것은 pod에 대한 spec
+
+      containers:
+        - name: second-node # 워커 노드같은게 아니라 노드앱
+          image: suhyeng/kub-first-app:2
+          imagePullPolicy: Always # 태그를 붙이지 않아도 항상 이미지를 새로 받아온다. 같은 태그로 재배포 하여도 pull해온다.
+          livenessProbe: # Pod의 생명주기중 Running 상태에서의 동작 체크, 응답이 없으면 재시작 한다.
+
+            httpGet:
+              path: /
+              port: 8080
+            periodSeconds: 10 # 몇 초 주기로 체크
+            initialDelaySeconds: 5 # 시작하고 몇 초 후
+        # - name: ...
+        #  image:
+```
 
 
 
