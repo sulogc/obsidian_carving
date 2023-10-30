@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes.md",
+                "file": "Deployment object.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes.md",
+                "file": "Deployment object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes.md",
+                "file": "Deployment object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes.md"
+                "file": "Deployment object.md"
               }
             }
           }
@@ -158,15 +158,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "a00b9b1cf9dd9024",
   "lastOpenFiles": [
+    "kubernetes.md",
     "src/kuberun.png",
     "Docker Compose.md",
     "Deployment object.md",
     "pod.md",
     "etcd.md",
     "Service.md",
-    "kubernetes.md",
     "src/Serviceob.png",
     "kubectl.md",
     "Container.md",
@@ -185,7 +185,6 @@
     "src/kube4.png",
     "src/kube3.png",
     "src/kube2.png",
-    "src/kube1.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
     "Volume.md",

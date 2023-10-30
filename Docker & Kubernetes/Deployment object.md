@@ -61,5 +61,14 @@ $ kubectl rollout undo deployment/first-app --to-revision=1
 deployment.apps/first-app rolled back
 ```
 
+#### 동적 객체
+deployment가 생성 후 pod수를 확장 할 때, pod는 이미 존재하는 deployment에 의해 자동으로 관리된다. 
+
+`selector` `matchLabels` 를 통해 deployment에 의해 관리될 pod를 명시할 수 있다.
+
+
+
+
+
 
 [[pod]]
