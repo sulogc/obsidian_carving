@@ -68,9 +68,11 @@ AWS에서 정의한 서비스, 옵션을 사용해야만 하는 특징이 있다
 ![[compo.png]]
 - 여기서 서비스는 독립적인 IP주소를 가진 포드 그룹이다.
 
+### 명령적, 선언적
 
-
-
+![[kuberun.png]]
+- Docker compose와 유사하게 yml 파일을 통해 쿠버네티스를 돌릴 수 있다. 
+- 
 
 [[Kafka]]
 [[Operator Pattern]]

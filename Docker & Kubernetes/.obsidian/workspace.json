@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "f2dedce0feafc133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker Compose.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b33339fba6b85cc9",
             "type": "leaf",
             "state": {
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deployment object.md",
+                "file": "kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deployment object.md",
+                "file": "kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deployment object.md"
+                "file": "kubernetes.md"
               }
             }
           }
@@ -171,16 +158,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b33339fba6b85cc9",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "src/kuberun.png",
+    "Docker Compose.md",
+    "Deployment object.md",
     "pod.md",
     "etcd.md",
-    "Deployment object.md",
     "Service.md",
     "kubernetes.md",
     "src/Serviceob.png",
     "kubectl.md",
-    "Docker Compose.md",
     "Container.md",
     "Docker.md",
     "Docker Hub.md",
