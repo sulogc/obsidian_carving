@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a00b9b1cf9dd9024",
+            "id": "36f8a4089f6f2eba",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "b33339fba6b85cc9",
+            "id": "846699d837685891",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deployment object.md",
+                "file": "State.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,13 +150,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a00b9b1cf9dd9024",
+  "active": "36f8a4089f6f2eba",
   "lastOpenFiles": [
+    "kubernetes.md",
+    "State.md",
+    "Volume.md",
+    "Deployment object.md",
     "Docker Compose.md",
     "Docker.md",
     "Service.md",
-    "Deployment object.md",
-    "kubernetes.md",
     "src/kuberun.png",
     "pod.md",
     "etcd.md",
@@ -179,7 +181,6 @@
     "src/kube2.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
-    "Volume.md",
     "Arguments & Environment.md",
     "Arg&Env.png.md",
     "Virtual Machines.md",

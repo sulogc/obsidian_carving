@@ -72,3 +72,4 @@ docker run -d -p 3000:80 --rm --name feedback-app -v feedback:/app/feedback feed
 `docker volume inspect name`으로 검사도 가능하다. 여기서 볼륨의 위치를 볼 수 있는데, 컨테이너의 os상의 위치이므로 호스트에서 접근 할 수 없다. 
 
 
+[[State]]
