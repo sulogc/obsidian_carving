@@ -46,3 +46,7 @@ minikube service first-app
 ❗  Because you are using a Docker driver on windows, the terminal needs to be open to run it.
 ```
 
+
+
+#### Selector
+셀렉터는 이 리소스에게 제어되거나, 연결되어야 하는 다른 리소스를 식별한다. 
