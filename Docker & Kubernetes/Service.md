@@ -50,3 +50,5 @@ minikube service first-app
 
 #### Selector
 셀렉터는 이 리소스에게 제어되거나, 연결되어야 하는 다른 리소스를 식별한다. 
+
+셀렉터를 사용하면, name이 아닌 metadata에 정의된 레이블로만 선택이 가능하다.
