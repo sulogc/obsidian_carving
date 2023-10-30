@@ -82,4 +82,4 @@ AWS에서 정의한 서비스, 옵션을 사용해야만 하는 특징이 있다
 [[cluster]]
 
 [[Deployment object]]
-
+[[Service]]

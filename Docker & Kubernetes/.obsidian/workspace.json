@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubectl.md",
+                "file": "kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f39ef0ba06cc100",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Service.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Compose.md",
+                "file": "Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Compose.md",
+                "file": "Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Compose.md"
+                "file": "Service.md"
               }
             }
           }
@@ -171,18 +183,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f2dedce0feafc133",
+  "active": "8f39ef0ba06cc100",
   "lastOpenFiles": [
+    "kubernetes.md",
+    "Service.md",
+    "kubectl.md",
+    "Docker Compose.md",
     "Container.md",
     "Docker.md",
     "Docker Hub.md",
-    "Docker Compose.md",
     "Deployment object.md",
     "src/Deploymentob.png",
     "pod.md",
     "src/Pod.png",
-    "kubernetes.md",
-    "kubectl.md",
     "Control Plane Components.md",
     "cluster.md",
     "Node Components.md",
