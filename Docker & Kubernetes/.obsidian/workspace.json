@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deployment object.md",
+                "file": "Container.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deployment object.md",
+                "file": "Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deployment object.md",
+                "file": "Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deployment object.md"
+                "file": "Container.md"
               }
             }
           }
@@ -171,12 +171,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "f2dedce0feafc133",
   "lastOpenFiles": [
+    "Docker.md",
+    "Docker Hub.md",
+    "Docker Compose.md",
+    "Container.md",
+    "Deployment object.md",
     "src/Deploymentob.png",
     "pod.md",
     "src/Pod.png",
-    "Deployment object.md",
     "kubernetes.md",
     "kubectl.md",
     "Control Plane Components.md",
@@ -193,16 +197,11 @@
     "src/kube2.png",
     "src/kube1.png",
     "src/compo.png",
-    "src/Dockercompose2.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
-    "Docker.md",
     "Volume.md",
-    "Container.md",
-    "Docker Compose.md",
     "Arguments & Environment.md",
     "Arg&Env.png.md",
-    "Docker Hub.md",
     "Virtual Machines.md",
     "Operator Pattern.md",
     "Layer Architecture.md",
