@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36f8a4089f6f2eba",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "846699d837685891",
             "type": "leaf",
             "state": {
@@ -77,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -93,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "State.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "State.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "State.md"
+              }
             }
           }
         ]
@@ -150,10 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "36f8a4089f6f2eba",
+  "active": "846699d837685891",
   "lastOpenFiles": [
-    "kubernetes.md",
+    "State.png",
     "State.md",
+    "kubernetes.md",
     "Volume.md",
     "Deployment object.md",
     "Docker Compose.md",
@@ -178,7 +176,6 @@
     "src/masternode.png",
     "src/kube4.png",
     "src/kube3.png",
-    "src/kube2.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
     "Arguments & Environment.md",
@@ -187,7 +184,6 @@
     "Operator Pattern.md",
     "Layer Architecture.md",
     "kube-scheduler.md",
-    "kube-apiserver.md",
     "src"
   ]
 }
