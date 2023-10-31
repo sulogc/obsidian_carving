@@ -73,11 +73,78 @@ spec:
 
 이것도 좋지만 여전히 노드에 종속되어서 클러스터 환경에서 사용하기엔 용이하지 않다.
 
-뭐. 노드 별로 독릾시키고 싶다면 이렇게 해도 된다.
-
+뭐. 노드 별로 독립시키고 싶다면 이렇게 해도 된다.
 
 ## CSI Volume
 
 Container Storage Interface
 
-파일시스템도 프로바이더에 따라 종류가 다양할 수 있다. 프로바이더의 종류를 
+파일시스템도 프로바이더에 따라 종류가 다양할 수 있다. 모든 종류에 대해 볼륨의 타입을 정의 놓을 수는 없기 때문에, 인터페이스를 정의해 두었다. 
+
+
+## Persistent Volumes 
+
+파드에 노드에 독립적인 볼륨을 보자.  
+
+독립 스토리지 그 이상의 개념이다. 
+핵심은 볼륨이 파드에서 분리되는 것인데,  파드의 수명주기와 무관해지는 것.
+
+deployment 와 파드에서 계속 정의할 필요 없이, 한 번 만들어 놓고 갖다가 쓰면 된다. 
+
+![[pvol.png]]
+
+
+![[pvclaim.png]]
+
+영구 볼륨을 사용하기 위해서는 pv claim을 노드 안에 파드옆에 붙여서 써야한다. 이렇게 하면 파드안에 컨테이너가 해당 볼륨을 쓸 수 있는지 claim을 걸 수가 있다.
+
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: host-pv
+spec:
+  capacity:
+    storage: 1Gi
+  volumeMode: Filesystem  # 파일시스템과 블록이 있다.
+  accessModes:
+    - ReadWriteOnce     # 볼륨이 단일 노드에 의해 읽기/쓰기 볼륨으로 마운트
+    # - ReadOnlyMany      # 읽기 전용이지만 여러 노드에서 요청가능.
+    # - ReadWriteMany     #
+  hostPath:
+    path: /data
+    type: DirectoryOrCreate
+```
+
+볼륨을 만들고 그에 맞는 클래임을 만들 수 있는데, 재밌는건 클레임을 만들고 클레임이 나 어떤 볼륨 줘 라고 하는 동적 볼륨 프로비저닝 이라는 토픽이 있다. 
+
+근데 그건 너무 고급 관리라 잘 안 씀. 그냥 정적 볼륨 프로비저닝 쓰자. 
+
+그리고 엑세스모드도 설정이 가능한데, 특정 파드에 대해 리드만 할지 쓰기까지 할지 설정이 가능하다. 
+
+그리고 리소스를 적어서 뭘 얻고싶은지 명시하게 한다.
+
+```
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: host-pvc
+spec:
+  volumeName: host-pv
+  accessMode:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+```
+
+그리고 볼륨의 타입을 설정하다.
+
+```
+volumes:
+        - name: story-volume
+          persistentVolumeClaim:
+            claimName: host-pvc
+```
+
+

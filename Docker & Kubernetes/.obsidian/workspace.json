@@ -149,7 +149,9 @@
   },
   "active": "846699d837685891",
   "lastOpenFiles": [
-    "State.png",
+    "src/pvclaim.png",
+    "src/pvol.png",
+    "src/State.png",
     "State.md",
     "kubernetes.md",
     "Volume.md",
@@ -175,7 +177,6 @@
     "src/utility container.png",
     "src/masternode.png",
     "src/kube4.png",
-    "src/kube3.png",
     "Utility Container.md",
     "Multi Contanier with 3 Layer Architecture.md",
     "Arguments & Environment.md",
