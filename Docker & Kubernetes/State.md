@@ -147,4 +147,16 @@ volumes:
             claimName: host-pvc
 ```
 
+### Storage class
 
+쿠버에서 볼륨을 어떻게 관리할지 설정을 해주는 놈인데, 영구 볼륨은 등록을 해줘야한다. 
+
+
+
+```
+$ kubectl get pv
+NAME      CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM
+    STORAGECLASS   REASON   AGE
+host-pv   1Gi        RWO            Retain           Bound    default/host-pvc   standard                73s
+
+```
