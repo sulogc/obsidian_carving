@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 200
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -179,18 +179,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "b63b3b81b40ec048",
   "lastOpenFiles": [
+    "kube/Deployment object.md",
+    "Kube Networks.md",
     "src/podinternal.png",
     "kubernetes.md",
     "Pod-internal.md",
-    "Kube Networks.md",
     "kube/node.md",
     "kube/Arguments & Environment.md",
     "kube",
     "docker",
     "kube/State.md",
-    "kube/Deployment object.md",
     "kube/kubectl.md",
     "kube/etcd.md",
     "kube/Env.md",
@@ -215,7 +215,6 @@
     "docker/Bind Mounts.md",
     "src/workernode.png",
     "src/utility container.png",
-    "src/masternode.png",
     "kube/Utility Container.md",
     "docker/Multi Contanier with 3 Layer Architecture.md",
     "Arg&Env.png.md",
