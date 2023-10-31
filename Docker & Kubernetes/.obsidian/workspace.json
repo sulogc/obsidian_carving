@@ -16,19 +16,43 @@
             }
           },
           {
+            "id": "b5363018dd4e94e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kube Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b63b3b81b40ec048",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kube Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f805ce4ae3bf93a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubectl.md",
+                "file": "kube/State.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubectl.md",
+                "file": "Kube Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubectl.md",
+                "file": "Kube Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubectl.md"
+                "file": "Kube Networks.md"
               }
             }
           }
@@ -155,44 +179,46 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f805ce4ae3bf93a3",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "src/podinternal.png",
     "kubernetes.md",
-    "etcd.md",
-    "Env.md",
-    "State.md",
+    "Pod-internal.md",
+    "Kube Networks.md",
+    "kube/node.md",
+    "kube/Arguments & Environment.md",
+    "kube",
+    "docker",
+    "kube/State.md",
+    "kube/Deployment object.md",
+    "kube/kubectl.md",
+    "kube/etcd.md",
+    "kube/Env.md",
     "src/pvclaim.png",
     "src/pvol.png",
     "src/State.png",
-    "Volume.md",
-    "Deployment object.md",
-    "Docker Compose.md",
-    "Docker.md",
-    "Service.md",
+    "docker/Volume.md",
+    "docker/Docker Compose.md",
+    "kube/Docker.md",
+    "kube/Service.md",
     "src/kuberun.png",
-    "pod.md",
+    "kube/pod.md",
     "src/Serviceob.png",
-    "kubectl.md",
-    "Container.md",
-    "Docker Hub.md",
+    "kube/Container.md",
+    "kube/Docker Hub.md",
     "src/Deploymentob.png",
     "src/Pod.png",
-    "Control Plane Components.md",
-    "cluster.md",
-    "Node Components.md",
-    "Communication & Networking.md",
-    "Bind Mounts.md",
+    "kube/Control Plane Components.md",
+    "kube/cluster.md",
+    "kube/Node Components.md",
+    "kube/Communication & Networking.md",
+    "docker/Bind Mounts.md",
     "src/workernode.png",
     "src/utility container.png",
     "src/masternode.png",
-    "Utility Container.md",
-    "Multi Contanier with 3 Layer Architecture.md",
-    "Arguments & Environment.md",
+    "kube/Utility Container.md",
+    "docker/Multi Contanier with 3 Layer Architecture.md",
     "Arg&Env.png.md",
-    "Virtual Machines.md",
-    "Operator Pattern.md",
-    "Layer Architecture.md",
-    "kube-scheduler.md",
     "src"
   ]
 }
