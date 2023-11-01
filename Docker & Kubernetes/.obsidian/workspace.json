@@ -155,8 +155,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "97391de68836e9e4",
+  "active": "679c91b99796a8bf",
   "lastOpenFiles": [
+    "docker/Images.md",
+    "docker/Docker.md",
+    "docker/Container.md",
+    "src/Container.png",
+    "docker/Virtual Machines.md",
     "docker/Docker Compose.md",
     "docker/Bind Mounts.md",
     "src/pvol.png",
@@ -184,17 +189,12 @@
     "kube/kube proxy.md",
     "kube/etcd.md",
     "kube/Env.md",
-    "docker/Docker.md",
     "kube/Docker Hub.md",
     "kube/Deployment object.md",
     "kube/Control Plane Components.md",
-    "kube/Container.md",
-    "kube/Communication & Networking.md",
-    "kube/cluster.md",
     "kube",
     "docker",
     "src/compo.png",
-    "src/masternode.png",
     "src"
   ]
 }
