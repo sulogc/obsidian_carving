@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes.md",
+                "file": "docker/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes.md",
+                "file": "docker/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes.md",
+                "file": "docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes.md"
+                "file": "docker/Docker.md"
               }
             }
           }
@@ -157,6 +157,8 @@
   },
   "active": "97391de68836e9e4",
   "lastOpenFiles": [
+    "docker/Docker Compose.md",
+    "docker/Bind Mounts.md",
     "src/pvol.png",
     "src/pvclaim.png",
     "src/podinternal.png",
@@ -182,19 +184,17 @@
     "kube/kube proxy.md",
     "kube/etcd.md",
     "kube/Env.md",
-    "kube/Docker.md",
+    "docker/Docker.md",
     "kube/Docker Hub.md",
     "kube/Deployment object.md",
     "kube/Control Plane Components.md",
     "kube/Container.md",
     "kube/Communication & Networking.md",
     "kube/cluster.md",
-    "kube/Arguments & Environment.md",
     "kube",
     "docker",
     "src/compo.png",
     "src/masternode.png",
-    "src/workernode.png",
     "src"
   ]
 }
