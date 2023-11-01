@@ -41,3 +41,40 @@ spec:
       targetPort: 8080 # 컨테이너 내부
 ```
 
+
+
+### Pod 간 통신
+
+user의 경우는 외부로 노출하기 위해서 LoadBalance로 설정했지만, 
+
+auth의 경우 클러스터 외부에서 들어오게 할 필요가 없어서 
+ClusterIP로 설정하고, kubectl apply로 deployment와 service를 올리고 IP를 받아서 받은놈을 user의 환경변수에 등록해주었다. 
+
+그러나 귀찮다. 수동으로 가져오는 것이. 
+
+쿠버네티스는 자동으로 생성되는 환경변수를 제공한다....?
+
+다른 서비스의 IP주소를 자동으로  가져오게 할 수 있다 .
+
+서비스 명이 auth-service 인 경우
+
+AUTH_SERVICE_SERVICE_HOST라는 환경변수가 자동으로 생성되고 IP로 사용하여 통신에 활용 할 수 있다. 
+
+
+자동으로 도메인 네임이 생성될 때 네임스페이스는 default에 속하게 된다. 
+그리고 호스트 대신 도메인 네임으로 대신할 수 있다 . 디폴트라는 네임스페이스를 붙여줘서 사용할 수 있다 .
+
+
+```
+spec:
+      containers:
+        - name: users
+          image: suhyeng/kub-demo-users:latest
+          env:
+            - name: AUTH_ADDRESS
+              # value: "10.104.57.186"
+              value: "auth-service.default"
+```
+
+
+
