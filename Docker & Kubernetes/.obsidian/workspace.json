@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kube/Docker.md",
+                "file": "kube/Container.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kube/Docker.md",
+                "file": "kube/Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kube/Docker.md",
+                "file": "kube/Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kube/Docker.md"
+                "file": "kube/Container.md"
               }
             }
           }
@@ -149,7 +148,10 @@
   },
   "active": "b5363018dd4e94e4",
   "lastOpenFiles": [
+    "docker/Volume.md",
     "docker/Docker Compose.md",
+    "docker/Images.md",
+    "kube/Docker.md",
     "docker/Bind Mounts.md",
     "Kube Networks.md",
     "kube/State.md",
@@ -167,8 +169,6 @@
     "src/pvclaim.png",
     "src/pvol.png",
     "src/State.png",
-    "docker/Volume.md",
-    "kube/Docker.md",
     "kube/Service.md",
     "src/kuberun.png",
     "kube/pod.md",
