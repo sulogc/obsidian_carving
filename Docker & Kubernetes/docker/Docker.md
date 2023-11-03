@@ -5,9 +5,7 @@
 
 ![[Docker.png]]
 
-
 - Docker Engine
-
 - 도커 실습
 1. 해당 레포에서 도커 이미지를 빌드한다.
 `Docker build .` 
