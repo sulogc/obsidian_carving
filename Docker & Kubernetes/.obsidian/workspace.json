@@ -16,14 +16,6 @@
             }
           },
           {
-            "id": "7826b7d37ea956d6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "efcea987ede78197",
             "type": "leaf",
             "state": {
@@ -36,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d0e86e274288ce52",
@@ -102,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/Docker Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/Docker Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docker/Docker Compose.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -163,17 +152,50 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "efcea987ede78197",
+  "floating": {
+    "id": "62c4f422764de77f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "45a608a040eeae51",
+        "type": "window",
+        "children": [
+          {
+            "id": "51730d8ceabf8c2b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7826b7d37ea956d6",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 978,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7826b7d37ea956d6",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "docker/Volume.md",
     "docker/Docker Compose.md",
+    "conflict-files-obsidian-git.md",
     "kube/Deployment object.md",
     "kube/Docker Hub.md",
     "kube/Communication & Networking.md",
     "docker/Docker.md",
     "docker/Images.md",
     "docker/Container.md",
-    "docker/Volume.md",
     "kube/Container.md",
     "kube/Docker.md",
     "docker/Bind Mounts.md",
