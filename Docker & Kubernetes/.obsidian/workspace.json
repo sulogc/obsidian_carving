@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "192831a4f003111e",
+        "id": "c077d13e2992115d",
         "type": "tabs",
         "children": [
           {
-            "id": "f61645ea24ea47a2",
+            "id": "056b31c876b6c47d",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "efcea987ede78197",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker/Docker Compose.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker Compose.md"
+              }
             }
           }
         ]
@@ -144,87 +133,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "switcher:퀵 스위처 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "62c4f422764de77f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "45a608a040eeae51",
-        "type": "window",
-        "children": [
-          {
-            "id": "51730d8ceabf8c2b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7826b7d37ea956d6",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 978,
-        "height": 1040,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7826b7d37ea956d6",
+  "active": "97391de68836e9e4",
   "lastOpenFiles": [
-    "docker/Volume.md",
-    "docker/Docker Compose.md",
-    "conflict-files-obsidian-git.md",
-    "kube/Deployment object.md",
-    "kube/Docker Hub.md",
-    "kube/Communication & Networking.md",
-    "docker/Docker.md",
-    "docker/Images.md",
-    "docker/Container.md",
-    "kube/Container.md",
-    "kube/Docker.md",
-    "docker/Bind Mounts.md",
-    "Kube Networks.md",
-    "kube/State.md",
-    "src/podinternal.png",
-    "kubernetes.md",
-    "Pod-internal.md",
-    "kube/node.md",
-    "kube/Arguments & Environment.md",
-    "kube",
-    "docker",
-    "kube/kubectl.md",
-    "kube/etcd.md",
-    "kube/Env.md",
-    "src/pvclaim.png",
-    "src/pvol.png",
-    "src/State.png",
-    "kube/Service.md",
-    "src/kuberun.png",
-    "kube/pod.md",
-    "src/Serviceob.png",
-    "src/Deploymentob.png",
-    "src/Pod.png",
-    "kube/Control Plane Components.md",
-    "kube/cluster.md",
-    "kube/Node Components.md",
     "src/workernode.png",
     "src/utility container.png",
+    "src/pvol.png",
+    "src/pvclaim.png",
+    "src/podinternal.png",
+    "src/masternode.png",
+    "src/kuberun.png",
+    "src/kube4.png",
+    "src/kube3.png",
+    "src/kube2.png",
+    "src/kube1.png",
+    "kube/pod.md",
+    "kube/node.md",
+    "kube/kubelet.md",
+    "kube/kubectl.md",
+    "kube/kube-scheduler.md",
+    "kube/kube-contoller-manager.md",
+    "kube/kube-apiserver.md",
+    "kube/kube proxy.md",
+    "kube/etcd.md",
+    "kube/cluster.md",
+    "kube/Utility Container.md",
+    "kube/Strimzi.md",
+    "kube/State.md",
+    "kube/Service.md",
+    "kube/Operator Pattern.md",
+    "kube/Node Components.md",
+    "kube/Kafka.md",
+    "kube/Env.md",
+    "kube/Docker Hub.md",
+    "kube/Deployment object.md",
+    "kube/Control Plane Components.md",
+    "kube/Communication & Networking.md",
+    "kube/Arguments & Environment.md",
+    "kube",
+    "docker/Volume.md",
+    "docker/Virtual Machines.md",
+    "docker",
     "src"
   ]
 }
